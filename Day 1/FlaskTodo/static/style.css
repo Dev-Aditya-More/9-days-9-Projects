@@ -1,0 +1,108 @@
+/* Centralize content and improve styling */
+body {
+    display: flex;
+    justify-content: center;   /* Horizontally center the content */
+    align-items: center;       /* Vertically center the content */
+    height: 100vh;             /* Set the height of the page to full viewport */
+    margin: 0;                 /* Remove default body margins */
+    background-color: #f0f0f0; /* Fallback color */
+    background-image: 
+        radial-gradient(circle, rgba(255, 255, 255, 0.1) 20%, transparent 20%),
+        radial-gradient(circle, rgba(255, 255, 255, 0.1) 20%, transparent 20%);
+    background-position: 0 0, 10px 10px;
+    background-size: 20px 20px;
+    font-family: Arial, sans-serif;
+}
+
+
+.container {
+    text-align: center;
+    background-color: #16213e;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    width: 350px;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 2em;
+    color: #f0f0f0;
+}
+
+.input-group {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    background-color: #23395d;
+    color: #fff;
+    width: 200px;
+    margin-right: 10px;
+    outline: none;
+}
+
+.add-btn {
+    background-color: #00adb5;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.add-btn:hover {
+    background-color: #007b7f;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    padding: 15px;
+    background-color: #23395d;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+
+button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.update-btn {
+    background-color: #ff5722;
+}
+
+.update-btn:hover {
+    background-color: #e64a19;
+}
+
+.remove-btn {
+    background-color: #f44336;
+}
+
+.remove-btn:hover {
+    background-color: #d32f2f;
+}
