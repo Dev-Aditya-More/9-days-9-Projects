@@ -1,0 +1,51 @@
+/* Global Styles */
+body {
+    background-color: #1f1f1f;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Card Styling */
+.custom-card {
+    background-color: #f0f0f0;
+    border: none;
+    border-radius: 15px;
+}
+
+/* Headings */
+h2, h4 {
+    font-weight: 700;
+}
+
+h2 {
+    color: #ffcc00;
+}
+
+/* Table Styling */
+#expense-table {
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+#expense-table th {
+    background-color: #343a40;
+    color: #ffffff;
+}
+
+#expense-table td {
+    color: #333333;
+}
+
+/* Total Amount Style */
+h5 {
+    color: #00cc66;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+/* Form Button Styling */
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    transition: background-color 0.3s ease-in-out;
+}
+
