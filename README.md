@@ -16,7 +16,3 @@ This repository will serve as a collection of all the projects, complete with co
   - Frameworks: React, Flask, Jetpack Compose, etc.
   - Tools: Git, Docker, Beautiful Soup, and more.
 
-🙌 How to Contribute:
-
-  Feel free to fork, star 🌟, or suggest improvements.  
-  Open issues or discussions if you want to provide feedback or ideas.
