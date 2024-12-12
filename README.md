@@ -13,6 +13,6 @@ This repository will serve as a collection of all the projects, complete with co
 🛠️ Tech Stack:
 
   - Languages: Python, Java, Kotlin, JavaScript, and more.
-  - Frameworks: React, Flask, Jetpack Compose, etc.
+  - Frameworks: React, Flask, Jetpack Compose, KMM etc.
   - Tools: Git, Docker, Beautiful Soup, and more.
 
